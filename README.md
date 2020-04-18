@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+```yaml
+bundle install --path vendor/bundle
+```
