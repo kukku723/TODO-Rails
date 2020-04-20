@@ -1,4 +1,4 @@
-FROM ruby:2.7.0
+FROM ruby:2.6.5
 
 RUN mkdir /app
 ADD ./Gemfile /app/Gemfile
