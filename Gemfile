@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'ransack','>=2.3.2'
 
 gem 'polyamorous'
+gem 'webpacker', github: "rails/webpacker"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
