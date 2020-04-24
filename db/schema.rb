@@ -26,7 +26,8 @@ ActiveRecord::Schema.define(version: 2020_04_24_150254) do
     t.string "email", null: false
     t.string "password"
     t.string "login_token"
-    t.integer "type", default: 0, null: false
+    t.integer "user_type", default: 0, null: false
+    t.boolean "activity", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["email"], name: "index_users_on_email", unique: true
