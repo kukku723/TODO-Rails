@@ -4,8 +4,10 @@ one:
   name: MyString
   email: MyString
   password: MyString
+  login_token: MyString
 
 two:
   name: MyString
   email: MyString
   password: MyString
+  login_token: MyString
