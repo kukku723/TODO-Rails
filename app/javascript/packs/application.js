@@ -13,3 +13,5 @@ console.log('Hello World from Webpacker');
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+//= require materialize
+import 'materialize-css/dist/js/materialize'
