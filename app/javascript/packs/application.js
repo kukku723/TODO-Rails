@@ -13,5 +13,8 @@ console.log('Hello World from Webpacker');
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-//= require materialize
-import 'materialize-css/dist/js/materialize'
+
+// materialize 導入
+import "../styles/index.scss";
+import "materialize-css/dist/js/materialize.min.js";
+M.AutoInit();
