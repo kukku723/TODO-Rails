@@ -2,11 +2,15 @@
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
-import '../javascripts/application';
-import '../stylesheets/application';
-require.context('../images', true, /\.(png|jpg|jpeg|svg)$/);
+
+// materialize 導入
+import "materialize-css/dist/js/materialize.min.js";
+import "materialize-css/dist/css/materialize.min.css";
+
+// require.context('../images', true, /\.(png|jpg|jpeg|svg)$/);
 
 console.log('Hello World from Webpacker');
+
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
@@ -14,7 +18,3 @@ console.log('Hello World from Webpacker');
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-// materialize 導入
-import "../styles/index.scss";
-import "materialize-css/dist/js/materialize.min.js";
-M.AutoInit();
