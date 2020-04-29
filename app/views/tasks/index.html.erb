@@ -11,7 +11,7 @@
         <th>Name</th>
         <th>Deadline</th>
         <th>Done</th>
-        <th colspan="3"></th>
+        <th>操作</th>
       </tr>
     </thead>
 
@@ -23,8 +23,8 @@
           <td><%= task.deadline %></td>
           <td><%= task.done %></td>
           <td class="row">
-            <div class="btn"><%= link_to 'Show', task %></div>
-            <div><%= link_to 'Edit', edit_task_path(task) %></div>
+            <div class="btn-small waves-effect red lighten-2 right"><%= link_to 'Show', task, :style=>"color:#ffffff;"%></div>
+            <div class="btn-small waves-effect red lighten-2 right"><%= link_to 'Edit', edit_task_path(task), :style=>"color:#ffffff;" %></div>
             <%#= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %>
           </td>
 <!--          <td></td>-->
