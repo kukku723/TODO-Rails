@@ -7,6 +7,7 @@ import '../stylesheets/application'
 // materialize 導入
 import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
+import 'material-icons/iconfont/material-icons.scss';
 
 // require.context('../images', true, /\.(png|jpg|jpeg|svg)$/);
 
