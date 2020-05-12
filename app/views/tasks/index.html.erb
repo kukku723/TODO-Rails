@@ -1,11 +1,11 @@
 
 
-<div class="container">
-  <p id="notice"><%= notice %></p>
+<div >
+  <p><%= notice %></p>
   <!-- Page Content goes here -->
 
-  <div class="btn waves-effect red lighten-2 right"><div><%= link_to 'New Task', new_task_path , :style=>"color:#ffffff;"%></div><i class="material-icons md-18">note_add</i></div>
-  <table class="highlight">
+  <div><div><%= link_to 'New Task', new_task_path , :style=>"color:#ffffff;"%></div><i class="material-icons md-18">note_add</i></div>
+  <table>
     <thead>
       <tr>
         <th>User</th>
@@ -23,10 +23,10 @@
           <td><%= task.name %></td>
           <td><%= task.deadline %></td>
           <td><%= task.done %></td>
-          <td class="row">
-            <div class="btn-small waves-effect red lighten-2 right m12"><%= link_to 'Show', task, :style=>"color:#ffffff;"%></div>
-            <div class="btn-small waves-effect red lighten-2 right m12"><%= link_to 'Edit', edit_task_path(task), :style=>"color:#ffffff;" %></div>
-            <div class="btn-small waves-effect red lighten-2 right m12"><%= link_to 'Destroy', task, :style=>"color:#ffffff;", method: :delete, data: { confirm: 'Are you sure?' } %></div>
+          <td >
+            <div ><%= link_to 'Show', task, :style=>"color:#ffffff;"%></div>
+            <div ><%= link_to 'Edit', edit_task_path(task), :style=>"color:#ffffff;" %></div>
+            <div ><%= link_to 'Destroy', task, :style=>"color:#ffffff;", method: :delete, data: { confirm: 'Are you sure?' } %></div>
           </td>
 <!--          <td></td>-->
         </tr>
