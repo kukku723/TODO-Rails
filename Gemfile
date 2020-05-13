@@ -29,7 +29,6 @@ gem 'webpacker', github: "rails/webpacker"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-#gem 'materialize-sass'
 #gem 'material_icons'
 
 group :development, :test do
