@@ -6,6 +6,7 @@ import '../stylesheets/application'
 
 // materialize 導入
 import 'material-icons/iconfont/material-icons.scss';
+import './hello_vue'
 
 // require.context('../images', true, /\.(png|jpg|jpeg|svg)$/);
 
