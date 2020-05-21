@@ -5,12 +5,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: local
-      TZ: 'UTC'
-    volumes:
-      - db/my.cnf:/etc/mysql/conf.d/my.cnf
     ports:
       - "3306:3306"
-
 
   web:
     build: .
