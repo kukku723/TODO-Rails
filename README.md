@@ -32,5 +32,6 @@ bundle exec rails new . --skip-coffee --skip-turbolinks --webpack
  ```yaml
 ##参考
 - https://qiita.com/azul915/items/5b7063cbc80192343fc0
-- https://hachy.github.io/2017/11/16/use-webpacker.html 
+- https://hachy.github.io/2017/11/16/use-webpacker.html
+https://qiita.com/geek_shanshan/items/8f348734d95d9ece9576 
 ```
